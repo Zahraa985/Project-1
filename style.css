@@ -1,0 +1,59 @@
+.container,
+.jumbotron {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    margin: unset;
+    background-origin: padding-box;
+    font-size: medium;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+@media screen and (max-width: 992px) {
+    #activImg {
+        width: 100%;
+        /* height: 60%; */
+        margin-left: 0px;
+    }
+    .activities {
+        width: 100%;
+    }
+    #concertImg {
+        width: 100%;
+    }
+}
+
+header {
+    background-color: lightblue;
+    padding: unset;
+    font-size: x-large;
+}
+
+footer {
+    display: block;
+    background-color: rgb(113, 175, 226);
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+body {
+    padding: '\f037';
+    ;
+}
